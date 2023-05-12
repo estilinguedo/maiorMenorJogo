@@ -2,7 +2,7 @@ import random
 
 tentativas = 7
 num = random.randint(1,100)
-print(num)
+#print(num)
 resposta = int(input("|BEM-VINDO AO JOGO!|\n--Voce tem " + str(tentativas) + " tentativa(s)--\nescolhi um numero de 1 a 100, qual vc acha q é?:\n\n"))
 
 def teste():
